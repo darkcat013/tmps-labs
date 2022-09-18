@@ -5,13 +5,15 @@ namespace SOLIDPrinciples
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             //Liskov Substitution Principle bad
-            List<Employee> employees = new List<Employee>();
-            employees.Add(new Nurse("Mary", 56));
-            employees.Add(new Doctor("John", 120));
-            employees.Add(new VolunteerNurse("Vance", 16));
+            List<Employee> employees = new List<Employee>
+            {
+                new Nurse("Mary", 56),
+                new Doctor("John", 120),
+                new VolunteerNurse("Vance", 16)
+            };
 
             foreach (var item in employees)
             {

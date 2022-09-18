@@ -8,7 +8,7 @@ namespace SOLIDPrinciples
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             //Open Closed Principle good
             int a = 3, b = 5;

@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31424.327
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDPrinciples", "SOLIDPrinciples\SOLIDPrinciples.csproj", "{F926D33C-4DBE-4ED8-84EA-552A37C23065}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityGood", "SingleResponsibilityGood\SingleResponsibilityGood.csproj", "{68009006-A706-4A1F-A1C0-BFBBF61E42AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityBad", "SingleResponsibilityBad\SingleResponsibilityBad.csproj", "{3B3C1492-3082-42E6-BD53-BB02238519BF}"
@@ -27,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F926D33C-4DBE-4ED8-84EA-552A37C23065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F926D33C-4DBE-4ED8-84EA-552A37C23065}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F926D33C-4DBE-4ED8-84EA-552A37C23065}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F926D33C-4DBE-4ED8-84EA-552A37C23065}.Release|Any CPU.Build.0 = Release|Any CPU
 		{68009006-A706-4A1F-A1C0-BFBBF61E42AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{68009006-A706-4A1F-A1C0-BFBBF61E42AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68009006-A706-4A1F-A1C0-BFBBF61E42AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
